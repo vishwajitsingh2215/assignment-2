@@ -1,0 +1,119 @@
+.container{
+    display:flex;
+    text-align: center;
+    height: 100%; 
+     
+}
+.left h2, .left p {
+    color: white;
+}
+.left{
+    
+    flex:50%;
+    background-color: rgb(61, 2, 61);
+}
+.design{
+    display:flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+
+ .back{
+    position: relative;
+    height: 100%;
+    width: 10%;
+    margin-top: 11px;
+    left: 40px;
+    z-index: 200;
+}
+.img-size{
+    max-height: 97%;
+    margin-left: 74px;
+    margin-top: 5px;
+}
+ .front{
+    margin-left: -20%;
+    position: relative;
+    height: 100%;
+    width: 10%;
+    z-index:300;
+} 
+.circle{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: coral;
+    border-radius: 50%;
+    height: 269px;
+    width: 299px
+    
+
+}
+.right{
+    flex:50%
+}
+
+ #button1{ 
+    width: 350px;
+    height: 25;
+    margin: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 1px 50px 5px rgba(0, 0, 255, .2);
+}
+#button2{ 
+    width: 350px;
+    height: 25px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 1px 50px 5px rgba(0, 0, 255, .2);
+}
+#check{
+    margin-left: 0px;
+}
+#forgot{
+    margin-left:80px;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    align-items: center;
+}
+#login{
+    width: 350px;
+    height: 25;
+    margin: 20px;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+}
+.playstore{
+    transform: translateY(34px);
+    margin-left: -20px;
+}
+#apple{
+    padding-left:20px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+#play{
+    padding-left: 20px;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 5px;
+}
+.form-email, .form-password{
+    margin: 20px;
+}
