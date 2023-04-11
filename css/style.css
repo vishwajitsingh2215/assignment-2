@@ -48,7 +48,8 @@
     background-color: coral;
     border-radius: 50%;
     height: 269px;
-    width: 299px
+    width: 299px;
+    margin-left:45px;
     
 
 }
@@ -63,7 +64,7 @@
     background-color: white;
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 1px 50px 5px rgba(0, 0, 255, .2);
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 255, .2);
 }
 #button2 { 
     width: 350px;
@@ -72,7 +73,7 @@
     background-color: white;
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 1px 50px 5px rgba(0, 0, 255, .2);
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 255, .2);
 }
 #check{
     margin-left: 0px;
